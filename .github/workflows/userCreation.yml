@@ -1,0 +1,18 @@
+name: User Creation Test
+run-name: User Recharge 
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+        - uses: actions/setup-node@v1
+          with:
+            node-version: 16.3
+        - name: Install
+          run: npm install
+        - name: CreateUser
+          run: node user1.js
+        - uses: actions/upload-artifact@v1
