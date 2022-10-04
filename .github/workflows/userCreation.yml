@@ -1,6 +1,6 @@
 name: User Creation Test
 run-name: User Recharge 
-on: [push]
+on: [pull]
 
 jobs:
   build:

@@ -27,7 +27,7 @@ async function myUser() {
             "addressExtension1": "",
             "addressExtension2": "",
             "addressExtension3": "",
-            "username": "testfromnodes12@dispostable.com",
+            "username": "testfromnodes1245@dispostable.com",
             "password": "1qazZAQ!",
             "marketingActivityCode": "WERS",
             "lastname": "TotalEnergies",
@@ -35,7 +35,7 @@ async function myUser() {
             "termCode": "12",
             "workPhone": "+45657676767",
             "coAddress": "Test User",
-            "email": "testfromnodes12@dispostable.com",
+            "email": "testfromnodes1245@dispostable.com",
             "titles": [
                 {
                     "titleCode": "RE",
